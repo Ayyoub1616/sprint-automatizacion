@@ -1,0 +1,26 @@
+# Entornos virtuales
+venv/
+.env/
+
+# Archivos compilados
+__pycache__/
+*.py[cod]
+
+# Archivos de log
+*.log
+
+# Configuración de VS Code
+.vscode/
+
+# Archivos temporales
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# Scripts compilados
+*.out
+
+# Configuración de entorno
+.env
