@@ -24,3 +24,12 @@ en github
   - Crear .gitignore para proyectos Python y Bash.
   - Subir primera Pull Request de prueba (dev → main).
 
+## 🚫 Normas de uso
+
+- El contenido de este repositorio es solo para fines educativos o personales.
+- **No se permite copiar, redistribuir ni reutilizar este código con fines comerciales o sin autorización previa.**
+- Cualquier uso indebido del contenido será considerado una violación de los derechos de autor.
+
+## 📄 Licencia
+
+Este proyecto no cuenta con una licencia abierta. Todos los derechos están reservados.
