@@ -1,25 +1,25 @@
-===== Reporte del Sistema: Sun Oct 19 07:58:14 PM UTC 2025 =====
+===== Reporte del Sistema: Sun Oct 19 08:12:54 PM UTC 2025 =====
 
 >>> Usuarios conectados (who):
 ayyoub   seat0        2025-10-19 19:33 (login screen)
 ayyoub   tty2         2025-10-19 19:33 (tty2)
-ayyoub   pts/1        2025-10-19 19:58
+ayyoub   pts/1        2025-10-19 20:12
 
 >>> Uso de CPU y memoria (top -n 1 | head -n 10):
-[?1h=[?25l[H[2J(B[mtop - 19:58:14 up 25 min,  2 users,  load average: 0.87, 0.55, 0.49(B[m[39;49m(B[m[39;49m[K
-Tasks:(B[m[39;49m[1m 237 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 236 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
-%Cpu(s):(B[m[39;49m[1m  2.1 (B[m[39;49mus,(B[m[39;49m[1m  2.1 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 93.6 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  2.1 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
-MiB Mem :(B[m[39;49m[1m  12908.7 (B[m[39;49mtotal,(B[m[39;49m[1m   8655.6 (B[m[39;49mfree,(B[m[39;49m[1m   2338.5 (B[m[39;49mused,(B[m[39;49m[1m   2076.3 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
-MiB Swap:(B[m[39;49m[1m      0.0 (B[m[39;49mtotal,(B[m[39;49m[1m      0.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m  10570.2 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[?1h=[?25l[H[2J(B[mtop - 20:12:55 up 39 min,  2 users,  load average: 0.85, 0.68, 0.55(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 240 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 239 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  2.2 (B[m[39;49mus,(B[m[39;49m[1m  1.1 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 94.6 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  2.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m  12908.7 (B[m[39;49mtotal,(B[m[39;49m[1m   8397.4 (B[m[39;49mfree,(B[m[39;49m[1m   2471.6 (B[m[39;49mused,(B[m[39;49m[1m   2125.1 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m      0.0 (B[m[39;49mtotal,(B[m[39;49m[1m      0.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m  10437.1 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
 [K
 [7m    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND  (B[m[39;49m[K
-(B[m   3093 ayyoub    20   0   11.8g 711260 288556 S  83.3   5.4   3:08.76 firefox  (B[m[39;49m[K
-(B[m[1m   5538 root      20   0   20748   5120   3072 R   8.3   0.0   0:00.02 top      (B[m[39;49m[K
-(B[m      1 root      20   0   23496  14816  10208 S   0.0   0.1   0:03.29 systemd  (B[m[39;49m[K
+(B[m[1m   6097 root      20   0   20748   5120   3072 R   3.5   0.0   0:00.03 top      (B[m[39;49m[K
+(B[m   4052 ayyoub    20   0 2808220 345108 116908 S   2.4   2.6   2:30.90 Isolate+ (B[m[39;49m[K
+(B[m    286 root      19  -1   49784  17856  16576 S   1.2   0.1   0:01.27 systemd+ (B[m[39;49m[K
 
 >>> Memoria disponible (free -h):
                total        used        free      shared  buff/cache   available
-Mem:            12Gi       2.3Gi       8.5Gi       115Mi       2.0Gi        10Gi
+Mem:            12Gi       2.4Gi       8.2Gi       113Mi       2.1Gi        10Gi
 Swap:             0B          0B          0B
 
 >>> Espacio en disco (df -h):
@@ -37,17 +37,18 @@ tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-tmpfiles-setup-de
 tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-tmpfiles-setup.service
 tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-networkd.service
 tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
-tmpfs           1.3G  128K  1.3G   1% /run/user/1000
+tmpfs           1.3G  136K  1.3G   1% /run/user/1000
 
->>> Últimos errores del sistema (journalctl -p 3 -n 10):
-Oct 19 19:33:10 CODEARTS kernel: RETBleed: WARNING: Spectre v2 mitigation leaves CPU vulnerable to RETBleed attacks, data leaks possible!
-Oct 19 19:33:10 CODEARTS systemd[1]: Invalid DMI field header.
-Oct 19 19:33:11 CODEARTS kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
-Oct 19 19:33:11 CODEARTS kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
-Oct 19 19:33:11 CODEARTS kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
-Oct 19 19:33:28 CODEARTS gdm-password][2036]: gkr-pam: unable to locate daemon control file
-Oct 19 19:33:29 CODEARTS systemd[2050]: Failed to start app-gnome-gnome\x2dkeyring\x2dpkcs11-2322.scope - Application launched by gnome-session-binary.
-Oct 19 19:33:29 CODEARTS systemd[2050]: Failed to start app-gnome-gnome\x2dkeyring\x2dsecrets-2325.scope - Application launched by gnome-session-binary.
-Oct 19 19:33:29 CODEARTS systemd[2050]: Failed to start app-gnome-gnome\x2dkeyring\x2dssh-2320.scope - Application launched by gnome-session-binary.
-Oct 19 19:52:19 CODEARTS systemd-networkd-wait-online[5133]: Timeout occurred while waiting for network connectivity.
+>>> Últimos errores del sistema (dmesg | tail -10):
+[  304.793738] audit: type=1400 audit(1760902692.947:171): apparmor="DENIED" operation="connect" class="file" profile="/usr/bin/wsdd" name="/run/uuidd/request" pid=4461 comm="python3" requested_mask="w" denied_mask="w" fsuid=1000 ouid=0
+[  304.793758] audit: type=1400 audit(1760902692.947:172): apparmor="DENIED" operation="mknod" class="file" profile="/usr/bin/wsdd" name="/var/lib/libuuid/clock.txt" pid=4461 comm="python3" requested_mask="c" denied_mask="c" fsuid=1000 ouid=1000
+[  314.449159] audit: type=1107 audit(1760902702.634:173): pid=1090 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/timedate1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.132" pid=3093 label="snap.firefox.firefox" peer_pid=4532 peer_label="unconfined"
+                exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+[ 1007.058699] workqueue: vmstat_shepherd hogged CPU for >10000us 4 times, consider switching to WQ_UNBOUND
+[ 1077.005863] workqueue: vmstat_shepherd hogged CPU for >10000us 5 times, consider switching to WQ_UNBOUND
+[ 1634.170817] workqueue: e1000_watchdog [e1000] hogged CPU for >10000us 4 times, consider switching to WQ_UNBOUND
+[ 1916.246829] workqueue: ata_sff_pio_task hogged CPU for >10000us 4 times, consider switching to WQ_UNBOUND
+[ 1965.317362] clocksource: Long readout interval, skipping watchdog check: cs_nsec: 2144759874 wd_nsec: 2144758396
+[ 2180.147813] workqueue: e1000_watchdog [e1000] hogged CPU for >10000us 5 times, consider switching to WQ_UNBOUND
+
 ===== Fin del reporte =====
