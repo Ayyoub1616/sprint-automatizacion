@@ -1,0 +1,53 @@
+===== Reporte del Sistema: Sun Oct 19 07:47:22 PM UTC 2025 =====
+
+>>> Usuarios conectados (who):
+ayyoub   seat0        2025-10-19 19:33 (login screen)
+ayyoub   tty2         2025-10-19 19:33 (tty2)
+
+>>> Uso de CPU y memoria (top -n 1 | head -n 10):
+[?1h=[?25l[H[2J(B[mtop - 19:47:22 up 14 min,  2 users,  load average: 0.45, 0.75, 0.53(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 236 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 235 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  4.9 (B[m[39;49mus,(B[m[39;49m[1m  0.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 92.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  2.4 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m  12908.7 (B[m[39;49mtotal,(B[m[39;49m[1m   8917.1 (B[m[39;49mfree,(B[m[39;49m[1m   2123.9 (B[m[39;49mused,(B[m[39;49m[1m   2003.4 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m      0.0 (B[m[39;49mtotal,(B[m[39;49m[1m      0.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m  10784.8 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND  (B[m[39;49m[K
+(B[m[1m   4877 ayyoub    20   0   20748   5120   3072 R   2.5   0.0   0:00.01 top      (B[m[39;49m[K
+(B[m      1 root      20   0   23496  14816  10208 S   0.0   0.1   0:03.14 systemd  (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd (B[m[39;49m[K
+
+>>> Memoria disponible (free -h):
+               total        used        free      shared  buff/cache   available
+Mem:            12Gi       2.1Gi       8.7Gi        76Mi       2.0Gi        10Gi
+Swap:             0B          0B          0B
+
+>>> Espacio en disco (df -h):
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.3G  1.7M  1.3G   1% /run
+/dev/sda2        25G  9.0G   15G  39% /
+tmpfs           6.4G     0  6.4G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           6.4G   16K  6.4G   1% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-udev-load-credentials.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-tmpfiles-setup-dev-early.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-sysctl.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-tmpfiles-setup-dev.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-tmpfiles-setup.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-networkd.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           1.3G  128K  1.3G   1% /run/user/1000
+
+>>> Últimos errores del sistema (journalctl -p 3 -n 10):
+Oct 17 08:50:11 CODEARTS systemd[2057]: Failed to start app-gnome-xdg\x2duser\x2ddirs-2337.scope - Application launched by gnome-session-binary.
+-- Boot bcd1ea27f67c4f1db181a1e4817d3ce8 --
+Oct 19 19:33:10 CODEARTS kernel: RETBleed: WARNING: Spectre v2 mitigation leaves CPU vulnerable to RETBleed attacks, data leaks possible!
+Oct 19 19:33:10 CODEARTS systemd[1]: Invalid DMI field header.
+Oct 19 19:33:11 CODEARTS kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Oct 19 19:33:11 CODEARTS kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Oct 19 19:33:11 CODEARTS kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Oct 19 19:33:28 CODEARTS gdm-password][2036]: gkr-pam: unable to locate daemon control file
+Oct 19 19:33:29 CODEARTS systemd[2050]: Failed to start app-gnome-gnome\x2dkeyring\x2dpkcs11-2322.scope - Application launched by gnome-session-binary.
+Oct 19 19:33:29 CODEARTS systemd[2050]: Failed to start app-gnome-gnome\x2dkeyring\x2dsecrets-2325.scope - Application launched by gnome-session-binary.
+Oct 19 19:33:29 CODEARTS systemd[2050]: Failed to start app-gnome-gnome\x2dkeyring\x2dssh-2320.scope - Application launched by gnome-session-binary.
+===== Fin del reporte =====
